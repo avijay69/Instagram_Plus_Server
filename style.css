@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fafafa; 
+    font-family: 'Roboto', sans-serif; 
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px; 
+    background-color: #fff;
+    border: 1px solid #ddd; 
+    padding: 20px; 
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container img {
+    width: 175px; 
+    margin-bottom: 20px; 
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+}
+
+.form-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #0095f6; 
+    color: #fff;
+    border: none;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+.form-container p {
+    margin: 15px 0; 
+    font-size: 14px; 
+    color: #8e8e8e; 
+}
+
+.form-container a {
+    color: #00376b; 
+    text-decoration: none; 
+    font-size: 14px; 
+}
+
+.signup-container {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.signup-container a {
+    color: #0095f6; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+.app-container p {
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    color: #8e8e8e; 
+}
+
+.app-container img {
+    width: 136px; 
+    margin: 5px 0; 
+}
